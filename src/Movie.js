@@ -12,7 +12,7 @@ class Movie extends Component {
     const mid = this.props.match.params.movieId;
     const singleMovieUrl = `https://api.themoviedb.org/3/movie/${mid}?api_key=${config.apiKey}`;
     axios.get(singleMovieUrl).then((resp) => {
-      console.log(resp.data);
+      //console.log(resp.data);
       this.setState({ movie: resp.data });
     });
   }
