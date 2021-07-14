@@ -7,7 +7,7 @@ import Movie from "./Movie";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/https://monzon-elias.github.io/movie-fan-app">
         <div className="App">
           <Route exact path="/" component={Home}></Route>
           <Route exact path="/movie/:movieId" component={Movie}></Route>
