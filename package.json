@@ -1,6 +1,6 @@
 {
   "name": "movie-fan-app",
-  "homepage": "https://monzon-elias.github.io/movie-fan-app",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
